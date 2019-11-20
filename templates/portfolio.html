@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <h1 class="text-ele"><strong>Portfolio :)</strong></h1>
+{% endblock title %}
+
+{% block content %}
+
+<div class="container mt-4" id="Portfolio">
+
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/img/fakebook.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><a class="nav-link" href="http://127.0.0.1:5000/fakebook">Fakebook </a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/img/booglebuena.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><a class="nav-link" href="http://127.0.0.1:5000/boogle">Boogle</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/img/resultados.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><a class="nav-link" href="http://127.0.0.1:5000/hair_salon">Hair salon</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+{% endblock content %}
